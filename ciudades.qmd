@@ -1,0 +1,46 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.26.3-Buenos Aires">
+  <identifier>Ciudades_Mundo</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ES</language>
+  <type>dataset</type>
+  <title>Ciudades_Mundo</title>
+  <abstract>Capa de puntos conteniendo las capitales de los países y territorios del mundo así como sus ciudades principales.
+
+Difusión gratuita</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</keyword>
+  </keywords>
+  <contact>
+    <name></name>
+    <organization></organization>
+    <position></position>
+    <voice>00584120904873</voice>
+    <fax></fax>
+    <email>orogenesis.ve@gmail.com</email>
+    <role>Punto de contacto</role>
+  </contact>
+  <links>
+    <link format="" size="" name="Shapefile" description="" type="Local Area Network" url="file://\\NVAESPARTA1\F\Stuffs\Shapefiles\01 Otros\00 Mundo\Ciudades_Mundo.shp" mimeType=""/>
+  </links>
+  <fees></fees>
+  <constraints type="Acceso">Ninguno</constraints>
+  <rights>Ninguno</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxx="177.13018800000000397" crs="EPSG:4326" minz="0" dimensions="2" miny="-53.11058899999999738" maxy="78.19999699999999621" maxz="0" minx="-165.27000400000000013"/>
+  </extent>
+</qgis>
