@@ -113,11 +113,24 @@
             "pais":paises,
             "ciudades":ciudades1
         };
-        var minimap = new L.Control.MiniMap(OSM, {
-            toggleDisplay: true,
-            minimized: false
-        }).addTo(map);
         
+         // Agrega la vista de pájaro
+        var miniMapOptions = {
+            width: 150,
+            height: 150,
+            collapsedWidth: 20,
+            collapsedHeight: 20,
+            zoomLevelOffset: -5,
+            aimingRectOptions: {
+                color: "#ff0000",
+                weight: 0.8,
+                opacity: 0.5,
+                fillOpacity: 0.1
+            }
+        };
+
+        var miniMap = new L.Control.MiniMap(paises, miniMapOptions);
+        miniMap.addTo(map);
         var ciudadesLayer = L.geoJson(ciudades, {
             pointToLayer: function (feature, latlng) {
                 var color = getColor_ciudades(feature.properties.CAPITAL);
